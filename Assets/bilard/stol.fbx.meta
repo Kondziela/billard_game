@@ -1,76 +1,24 @@
 fileFormatVersion: 2
-guid: d0b8219f60fccf640b356b5087a49535
-timeCreated: 1478723184
+guid: ff4bce28389151c45a17afe5ec9604fe
+timeCreated: 1479564572
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: Camera
-    100002: Cube
-    100004: Cube.002
-    100006: Cube.003
-    100008: Cube.004
-    100010: Cube.005
-    100012: Cube.006
-    100014: Cube.007
-    100016: Cube.008
-    100018: Cube.009
-    100020: Cube.010
-    100022: Lamp
-    100024: //RootNode
+    100002: Lamp
+    100004: Plane
+    100006: Point
+    100008: //RootNode
     400000: Camera
-    400002: Cube
-    400004: Cube.002
-    400006: Cube.003
-    400008: Cube.004
-    400010: Cube.005
-    400012: Cube.006
-    400014: Cube.007
-    400016: Cube.008
-    400018: Cube.009
-    400020: Cube.010
-    400022: Lamp
-    400024: //RootNode
-    2300000: Cube
-    2300002: Cube.002
-    2300004: Cube.003
-    2300006: Cube.004
-    2300008: Cube.005
-    2300010: Cube.006
-    2300012: Cube.007
-    2300014: Cube.008
-    2300016: Cube.009
-    2300018: Cube.010
-    3300000: Cube
-    3300002: Cube.002
-    3300004: Cube.003
-    3300006: Cube.004
-    3300008: Cube.005
-    3300010: Cube.006
-    3300012: Cube.007
-    3300014: Cube.008
-    3300016: Cube.009
-    3300018: Cube.010
-    4300000: Cube.003
-    4300002: Cube
-    4300004: Cube.002
-    4300006: Cube.004
-    4300008: Cube.005
-    4300010: Cube.006
-    4300012: Cube.007
-    4300014: Cube.008
-    4300016: Cube.009
-    4300018: Cube.010
-    6400000: Cube
-    6400002: Cube.002
-    6400004: Cube.003
-    6400006: Cube.004
-    6400008: Cube.005
-    6400010: Cube.006
-    6400012: Cube.007
-    6400014: Cube.008
-    6400016: Cube.009
-    6400018: Cube.010
+    400002: Lamp
+    400004: Plane
+    400006: Point
+    400008: //RootNode
+    2300000: Plane
+    3300000: Plane
+    4300000: Plane
+    6400000: Plane
   materials:
     importMaterials: 1
     materialName: 0
