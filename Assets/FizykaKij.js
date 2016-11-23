@@ -71,6 +71,7 @@ function Update () {
 		rotationVector.y += 3;
 		transform.rotation = Quaternion.Euler(rotationVector);
 	}
+
 }
 
 /*function mnozMacierz31(A: float[,], V: float[]) : float[]
