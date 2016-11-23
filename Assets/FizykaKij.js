@@ -5,14 +5,16 @@ var isBack = false;
 var countStrike = 0;
 
 function Update () {
-	var szybkosc = Time.deltaTime * 100;
+	var multiplier = 3;	// previously - 10
+
+	var szybkosc = Time.deltaTime * multiplier;
 	var rotationVector = transform.rotation.eulerAngles;
 	var rotVec = [rotationVector.x, rotationVector.y, rotationVector.z];
 	Debug.Log("Rotation: " + rotVec[0] + rotVec[1] + rotVec[2]);
 	Debug.Log("Position: " + transform.position.ToString());
 	if(isStrike) {
 		if(countStrike < 10) {
-			transform.Translate(0, szybkosc, 0);
+			transform.Translate(0, szybkosc*multiplier, 0);
 			countStrike++;
 		} else {
 			countStrike = 0;
@@ -22,7 +24,7 @@ function Update () {
 	}
 	if(isBack) {
 		if(countStrike < 10) {
-			transform.Translate(0, -szybkosc, 0);
+			transform.Translate(0, -szybkosc*multiplier, 0);
 			countStrike++;
 		} else {
 			countStrike = 0;
@@ -31,7 +33,9 @@ function Update () {
 	}
 	// uderz
 	if(Input.GetKeyDown(KeyCode.Mouse0)) {
-		isStrike = true;
+		if(!isStrike && !isBack) {
+			isStrike = true;
+		}
 	}
 	// position up
 	if(Input.GetKey ("t")) {
@@ -52,26 +56,25 @@ function Update () {
 	// rotate up
 	if(Input.GetKey ("i")) {
 		if(rotationVector.z > 93) {
-			rotationVector.z -= 3;
+			rotationVector.z -= 1;
 			transform.rotation = Quaternion.Euler(rotationVector);
 		}
 	}
 	// rotate down
 	if(Input.GetKey ("k")) {
-		rotationVector.z += 3;
+		rotationVector.z += 1;
 		transform.rotation = Quaternion.Euler(rotationVector);	
 	}
 	// rotate left
 	if(Input.GetKey ("j")) {
-		rotationVector.y -= 3;
+		rotationVector.y -= 1;
 		transform.rotation = Quaternion.Euler(rotationVector);	
 	}
 	// rotate right
 	if(Input.GetKey ("l")) {
-		rotationVector.y += 3;
+		rotationVector.y += 1;
 		transform.rotation = Quaternion.Euler(rotationVector);
 	}
-
 }
 
 /*function mnozMacierz31(A: float[,], V: float[]) : float[]
