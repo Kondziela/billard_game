@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{4D4A24D8-7187-3793-44F3-871376460A72}") = "billard_game", "Assembly-CSharp-firstpass.csproj", "{C7F083F6-CD1B-2592-69C5-5AE95C182C3C}"
 EndProject
+Project("{4D4A24D8-7187-3793-44F3-871376460A72}") = "billard_game", "Assembly-CSharp.csproj", "{CA2517E0-0A90-BDBA-A845-C2260566357F}"
+EndProject
 Project("{4D4A24D8-7187-3793-44F3-871376460A72}") = "billard_game", "Assembly-CSharp-Editor.csproj", "{515A3727-CD04-C3EB-F255-BA3A9F97FC13}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{C7F083F6-CD1B-2592-69C5-5AE95C182C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F083F6-CD1B-2592-69C5-5AE95C182C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F083F6-CD1B-2592-69C5-5AE95C182C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2517E0-0A90-BDBA-A845-C2260566357F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2517E0-0A90-BDBA-A845-C2260566357F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2517E0-0A90-BDBA-A845-C2260566357F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2517E0-0A90-BDBA-A845-C2260566357F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{515A3727-CD04-C3EB-F255-BA3A9F97FC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{515A3727-CD04-C3EB-F255-BA3A9F97FC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{515A3727-CD04-C3EB-F255-BA3A9F97FC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
