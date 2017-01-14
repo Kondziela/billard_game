@@ -1,15 +1,72 @@
 fileFormatVersion: 2
-guid: 6a47f4d22338eba47a0ce5d030b65df0
-timeCreated: 1479555520
+guid: a0eaf34e80639f24fa40f43c811f3be7
+timeCreated: 1484403789
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
+    100000: Banc_000
+    100002: Banc_001
+    100004: Banc_002
+    100006: Banc_003
+    100008: Banc_004
+    100010: Banc_005
+    100012: Batis
+    100014: Batis_001
+    100016: Plane
+    100018: Plane_001
+    100020: Porte
+    100022: Porte_001
+    100024: //RootNode
+    400000: Banc_000
+    400002: Banc_001
+    400004: Banc_002
+    400006: Banc_003
+    400008: Banc_004
+    400010: Banc_005
+    400012: Batis
+    400014: Batis_001
+    400016: Plane
+    400018: Plane_001
+    400020: Porte
+    400022: Porte_001
+    400024: //RootNode
+    2300000: Banc_000
+    2300002: Banc_001
+    2300004: Banc_002
+    2300006: Banc_003
+    2300008: Banc_004
+    2300010: Banc_005
+    2300012: Batis
+    2300014: Batis_001
+    2300016: Plane
+    2300018: Plane_001
+    2300020: Porte
+    2300022: Porte_001
+    3300000: Banc_000
+    3300002: Banc_001
+    3300004: Banc_002
+    3300006: Banc_003
+    3300008: Banc_004
+    3300010: Banc_005
+    3300012: Batis
+    3300014: Batis_001
+    3300016: Plane
+    3300018: Plane_001
+    3300020: Porte
+    3300022: Porte_001
     4300000: Plane
+    4300002: Plane_001
+    4300004: Banc_002
+    4300006: Banc_003
+    4300008: Banc_001
+    4300010: Banc_004
+    4300012: Banc_000
+    4300014: Banc_005
+    4300016: Batis
+    4300018: Porte
+    4300020: Batis_001
+    4300022: Porte_001
     7400000: Default Take
     9500000: //RootNode
   materials:
