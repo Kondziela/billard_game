@@ -8,14 +8,17 @@ function Update () {
 	var szybkosc = Time.deltaTime;
 	var multiplier = 3;	// previously - 10
 
+	//var szybkosc = Time.deltaTime * multiplier;
 	var rotationVector = transform.rotation.eulerAngles;
 	var rotVec = [rotationVector.x, rotationVector.y, rotationVector.z];
-	
+	//Debug.Log("Rotation: " + rotVec[0] + rotVec[1] + rotVec[2]);
+	//Debug.Log("Position: " + transform.position.ToString());
+	Debug.Log(Input.inputString);
+	Debug.Log("AXES: " + Input.GetAxis("PS4_KLVer") + " " + Input.GetAxis("PS4_KlHor"));
+
 	if(isStrike) {
 		if(countStrike < 10) {
-			// https://docs.unity3d.com/ScriptReference/Vector3.html
-			GetComponent.<Rigidbody>().AddForce(Vector3.forward*100, ForceMode.Acceleration);
-			//transform.Translate(0, szybkosc*5, 0);
+			transform.Translate(0, szybkosc*5, 0);
 			countStrike++;
 		} else {
 			countStrike = 0;
@@ -25,8 +28,7 @@ function Update () {
 	}
 	if(isBack) {
 		if(countStrike < 10) {
-			GetComponent.<Rigidbody>().AddForce(Vector3.back*100, ForceMode.Acceleration);
-			//transform.Translate(0, -szybkosc*5, 0);
+			transform.Translate(0, -szybkosc*5, 0);
 			countStrike++;
 		} else {
 			countStrike = 0;
@@ -39,11 +41,9 @@ function Update () {
 	
 	// Myszka
 	if(Input.GetKeyDown(KeyCode.Mouse0)) {
-		
 		if(!isStrike && !isBack) {
 			isStrike = true;
 		}
-		//other.rigidbody.AddForce(Vector3.up * 1000, ForceMode.Acceleration);
 	}
 	
 	// PAD
